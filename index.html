@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculator</title>
+
+    <script>
+        function display(value) {
+            // Handle the button click event
+            console.log("Button clicked:", value);
+        }
+    </script>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+
+    <div  class="container">
+        <input id="output" type="text" class="result">
+
+        <div class="first-row">
+            
+            <input onclick="clearAll()" class="BTN" type="button" value="CLR">
+            <input onclick="squareRoot()" class="BTN" type="button" value="&radic;">
+            <input onclick="Percentage()" class="BTN" type="button" value="%">
+            <input onclick="display('/')" class="BTN" type="button" name="" value="/">
+        </div>
+
+        <div class="second-row">
+            <input onclick="display(7)" class="BTN" type="button" name="" value="7">
+            <input onclick="display(8)" class="BTN" type="button" name="" value="8">
+            <input onclick="display(9)" class="BTN" type="button" name="" value="9">
+            <input onclick="display('*')" class="BTN" type="button" value="X">
+            
+        </div>
+
+        <div class="third-row">
+            <input onclick="display(4)" class="BTN" type="button" value="4">
+            <input onclick="display(5)" class="BTN" type="button" value="5">
+            <input onclick="display(6)" class="BTN" type="button" value="6">
+            <input onclick="display('-')" class="BTN" type="button" value="-">
+        </div>
+
+        <div class="fourth-row">
+            <input onclick="display(1)" class="BTN" type="button" value="1">
+            <input onclick="display(2)" class="BTN" type="button" value="2">
+            <input onclick="display(3)" class="BTN" type="button" value="3">
+            <input onclick="display('00')" class="BTN" type="button" value="00">
+            
+        </div>
+
+        <div class="conflict">
+            <div class="left">
+                <input onclick="display(0)" class="big" type="button" value="0">
+                <input onclick="display('.')" class="small" type="button" value=".">
+                <input onclick="removeLast()" class="red small white-text top-margin" type="button" value="Del">
+                <input onclick="evaluateExp()" class="green white-text big top-margin" type="button" value="=">
+            </div>
+
+            <div class="right">
+                <input onclick="display('+')" class="BTN grey plus" type="button" value="+">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./main.js"></script>
+</html>

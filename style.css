@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Belanosima', sans-serif;
+    
+  }
+
+  body{
+    background-image: url('./city-silhouette-sky-wallpaper-1920x1440_25.jpg');
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Palanquin Dark', sans-serif;
+    margin-top: 0;
+    overflow-x: hidden;
+    
+  }
+
+  
+h1{
+    text-align: center;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    color: #fff;
+  }
+
+
+ 
+  .container{
+    margin: auto;
+    width: 325PX;
+    height: 430px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #000000;
+    background-color: #3d3030;
+  }
+
+  .result{
+    font-size: 24px;
+    padding: 24px 5px;
+    padding-bottom: 10PX;
+    font-weight: 700;
+    text-align: right;
+    width: 96%;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #ffffff69;
+  }
+
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row,
+  .conflict
+  {
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .BTN{
+   padding: 15px;
+   font-weight: bold;
+   font-size: 16px;
+   border: none;
+   border-radius: 3px;
+   background-color: #ffffff2c;
+   float: left;
+   width: 23.5%;
+   margin: 0 2px;
+  }
+
+  .conflict .left,
+  .conflict .right{
+    float: left;
+    position: relative;
+
+  }
+  .left{
+    width: 74%;
+  }
+  
+  .right{
+    width: 24%;
+  }
+  .big{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffffff2c;
+    float: left;
+    width: 64.5%;
+    margin: 0 2px;
+  }
+  .small{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color:#ffffff2c;
+    float: left;
+    width: 31.5%;
+    margin: 0 2px;
+  }
+  .plus{
+    height: 100px;
+    width: 100%;
+    background-color:#ffffff2c;
+  }
+  .green{
+    background-color: #81c7847e;
+  }
+  .red{
+    background-color: #f502576e
+  }
+ 
+  .white-text{
+    color: #fff;
+  }
+  .top-margin{
+    margin-top: 4px;
+  }
+  
